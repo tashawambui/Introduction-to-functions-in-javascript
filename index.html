@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="add ()">click</button>
+    <p id="p1"></p>
+    <script>
+        function add(){
+            var a=10
+            var b=5
+            var sum=a+b
+            document.getElementById("p1").innerHTML=sum
+
+        }
+    </script>
+    <!--calling the function-->
+        <!--call using its name and parentheses-->
+        <button onclick="mult(9,3)">click</button>
+        <script>
+            function mult(a,b){
+            var result=a*b
+            return document.write(result)
+            }
+        </script>
+</body>
+</html>
